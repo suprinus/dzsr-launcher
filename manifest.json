@@ -49,6 +49,18 @@
         "Traffic",
         "SRP"
       ]
+    },
+    {
+      "id": "main",
+      "name": "DZST 3 110 |Heavy Traffic |vip |by ALGSTREET ",
+      "host": "38.242.195.205",
+      "httpPort": 8082,
+      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8082",
+      "region": "FR",
+      "description": "Serveur DZSR",
+      "tags": [
+        "DZSR"
+      ]
     }
   ],
   "content": {

@@ -9,7 +9,7 @@
                      "url":  "https://discord.gg/CFwDj5xVVb"
                  }
              ],
-    "launcher":  null,
+    "launcher":  { "version": "1.0.0", "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.0/ServerLauncher.exe", "sha256": "020508bce2fa662b69d81cafed87bed31e7bfc7ebc91e1bef46b6a7715a9f108" },
     "csp":  {
                 "minVersion":  "0.3.0",
                 "minBuild":  3600,

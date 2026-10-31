@@ -12,7 +12,7 @@
     "downloadUrl": ""
   },
   "servers": [
-       {
+    {
       "id": "main",
       "name": "DZSR Traffic",
       "host": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8081",
@@ -21,18 +21,8 @@
       "tags": ["Trafic"],
       "password": "",
       "leaderboard": "main-laps"
-    },
-    
-     {
-      "id": "main",
-      "name": "DZSR Traffic",
-      "host": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8081",
-      "httpPort": 8081,
-      "description": "Trafic IA, ouvert à tous.",
-      "tags": ["Trafic"],
-      "password": "",
-      "leaderboard": "main-laps"
-    },
+    }
+  ],
   "news": [
     {
       "id": "bienvenue",

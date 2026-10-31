@@ -1,80 +1,96 @@
 {
-    "schema":  1,
-    "motd":  "Bienvenue sur DZSR !",
-    "news":  [
-                 {
-                     "title":  "Le launcher DZSR est disponible",
-                     "date":  "31/10/2026",
-                     "body":  "Il installe tout seul les voitures du serveur et vérifie Custom Shaders Patch. Un souci ? Passe sur le Discord.",
-                     "url":  "https://discord.gg/CFwDj5xVVb"
-                 }
-             ],
-    "launcher":  { "version": "1.0.0", "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.0/ServerLauncher.exe", "sha256": "020508bce2fa662b69d81cafed87bed31e7bfc7ebc91e1bef46b6a7715a9f108" },
-    "csp":  {
-                "minVersion":  "0.3.0",
-                "minBuild":  3600,
-                "url":  "https://acstuff.club/patch/?get=0.3.0",
-                "sha256":  null
-            },
-    "contentManager":  {
-                           "url":  "https://acstuff.club/app/latest.zip"
-                       },
-    "servers":  [
-                    {
-                        "id":  "main",
-                        "name":  "",
-                        "host":  "176.172.131.151",
-                        "httpPort":  8081,
-                        "cmJoinUrl":  "https://acstuff.club/s/q:race/online/join?ip=176.172.131.151\u0026httpPort=8081",
-                        "region":  "FR",
-                        "description":  "Serveur DZSR",
-                        "tags":  [
-                                     "DZSR"
-                                 ]
-                    }
-                ],
-    "content":  {
-                    "cars":  {
-                                 "06_ygt_53_peugeot_207_rc":  {
-                                                                  "url":  "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/06_ygt_53_peugeot_207_rc.zip",
-                                                                  "sha256":  "dd86d70fafbc3ec9907e7af7973daa51d2c62bc88c1c0a62551a254590c49311",
-                                                                  "size":  283127939,
-                                                                  "version":  "V1.0"
-                                                              },
-                                 "DZST_AUDI_RS3_ZK _Performance":  {
-                                                                       "url":  "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/DZST_AUDI_RS3_ZK__Performance.zip",
-                                                                       "sha256":  "c808a60d00d9b5ee49afe470de222e20d0c040d7a3e4b829b76ab5d1e3218e77",
-                                                                       "size":  374237098,
-                                                                       "version":  "3.0"
-                                                                   },
-                                 "DZST_Fiat_Doblo_2025":  {
-                                                              "url":  "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/DZST_Fiat_Doblo_2025.zip",
-                                                              "sha256":  "f7a514578ee390d27917e510a4389768cf42fd29c61cb4b3da29bd71c18f18da",
-                                                              "size":  339152048,
-                                                              "version":  "3.0"
-                                                          },
-                                 "dzst_golf_7.5_R":  {
-                                                         "url":  "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/dzst_golf_7.5_R.zip",
-                                                         "sha256":  "0df69292ffe6e952c38c74f8ec20fef3c878ac7526194fe50c3bf21900576fdc",
-                                                         "size":  210671689,
-                                                         "version":  "v3.0"
-                                                     },
-                                 "DZST_GOLF7.5_R400":  {
-                                                           "url":  "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/DZST_GOLF7.5_R400.zip",
-                                                           "sha256":  "298d5057c44a7915e6e2ea9a682100143a127a112eb912c949cda0bc1c741a70",
-                                                           "size":  461533284,
-                                                           "version":  "1.0"
-                                                       },
-                                 "DZST_Seat_cupra_2016_v2":  {
-                                                                 "url":  "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/DZST_Seat_cupra_2016_v2.zip",
-                                                                 "sha256":  "455ba175264722318acee84665e965a701302c1fe95230835659f654fb68d94c",
-                                                                 "size":  114708736,
-                                                                 "version":  "3.0.1"
-                                                             }
-                             },
-                    "tracks":  {
-
-                               }
-                },
-    "graphicsPresets":  null
+  "schema": 1,
+  "motd": "Bienvenue sur DZSR !",
+  "news": [
+    {
+      "title": "Le launcher DZSR est disponible",
+      "date": "31/10/2026",
+      "body": "Il installe tout seul les voitures du serveur et vérifie Custom Shaders Patch. Un souci ? Passe sur le Discord.",
+      "url": "https://discord.gg/CFwDj5xVVb"
+    }
+  ],
+  "launcher": {
+    "version": "1.0.1",
+    "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.1/ServerLauncher.exe",
+    "sha256": "b29135ba1ac5a9e366f44496f688cd275b6e905043ee242aa781f27ae2cfbea8",
+    "notes": "Ajout du serveur DZST 01 Shutoko, corrections."
+  },
+  "csp": {
+    "minVersion": "0.3.0",
+    "minBuild": 3600,
+    "url": "https://acstuff.club/patch/?get=0.3.0",
+    "sha256": null
+  },
+  "contentManager": {
+    "url": "https://acstuff.club/app/latest.zip"
+  },
+  "servers": [
+    {
+      "id": "main",
+      "name": "",
+      "host": "176.172.131.151",
+      "httpPort": 8081,
+      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=176.172.131.151&httpPort=8081",
+      "region": "FR",
+      "description": "Serveur DZSR",
+      "tags": [
+        "DZSR"
+      ]
+    },
+    {
+      "id": "dzst01",
+      "name": "",
+      "host": "38.242.195.205",
+      "httpPort": 8081,
+      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8081",
+      "region": "EU",
+      "description": "Shutoko Revival Project, heavy traffic (serveur DZST by ALGSTREET)",
+      "tags": [
+        "Traffic",
+        "SRP"
+      ]
+    }
+  ],
+  "content": {
+    "cars": {
+      "06_ygt_53_peugeot_207_rc": {
+        "url": "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/06_ygt_53_peugeot_207_rc.zip",
+        "sha256": "dd86d70fafbc3ec9907e7af7973daa51d2c62bc88c1c0a62551a254590c49311",
+        "size": 283127939,
+        "version": "V1.0"
+      },
+      "DZST_AUDI_RS3_ZK _Performance": {
+        "url": "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/DZST_AUDI_RS3_ZK__Performance.zip",
+        "sha256": "c808a60d00d9b5ee49afe470de222e20d0c040d7a3e4b829b76ab5d1e3218e77",
+        "size": 374237098,
+        "version": "3.0"
+      },
+      "DZST_Fiat_Doblo_2025": {
+        "url": "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/DZST_Fiat_Doblo_2025.zip",
+        "sha256": "f7a514578ee390d27917e510a4389768cf42fd29c61cb4b3da29bd71c18f18da",
+        "size": 339152048,
+        "version": "3.0"
+      },
+      "dzst_golf_7.5_R": {
+        "url": "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/dzst_golf_7.5_R.zip",
+        "sha256": "0df69292ffe6e952c38c74f8ec20fef3c878ac7526194fe50c3bf21900576fdc",
+        "size": 210671689,
+        "version": "v3.0"
+      },
+      "DZST_GOLF7.5_R400": {
+        "url": "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/DZST_GOLF7.5_R400.zip",
+        "sha256": "298d5057c44a7915e6e2ea9a682100143a127a112eb912c949cda0bc1c741a70",
+        "size": 461533284,
+        "version": "1.0"
+      },
+      "DZST_Seat_cupra_2016_v2": {
+        "url": "https://github.com/suprinus/dzsr-launcher/releases/download/content-v1/DZST_Seat_cupra_2016_v2.zip",
+        "sha256": "455ba175264722318acee84665e965a701302c1fe95230835659f654fb68d94c",
+        "size": 114708736,
+        "version": "3.0.1"
+      }
+    },
+    "tracks": {}
+  },
+  "graphicsPresets": null
 }

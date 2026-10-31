@@ -26,8 +26,8 @@
      {
       "id": "main",
       "name": "DZSR Traffic",
-      "host": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8081",
-      "httpPort": 8081,
+      "host": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8077",
+      "httpPort": 8077,
       "description": "Trafic IA, ouvert à tous.",
       "tags": ["Trafic"],
       "password": "",

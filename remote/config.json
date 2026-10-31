@@ -14,8 +14,8 @@
   "servers": [
     {
       "id": "main",
-      "name": "DZSR Traffic",
-      "host": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8081",
+      "name": "DZST 01 Shutoko |Heavy Traffic |SRP |by ALGSTREET discord.gg/DZST",
+      "host": "38.242.195.205",
       "httpPort": 8081,
       "description": "Trafic IA, ouvert à tous.",
       "tags": ["Trafic"],

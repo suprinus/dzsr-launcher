@@ -11,16 +11,43 @@
     "installVersion": "0.2.11",
     "downloadUrl": ""
   },
-  "servers": [
+ "servers": [
     {
       "id": "main",
-      "name": "DZST 01 Shutoko |Heavy Traffic |SRP |by ALGSTREET discord.gg/DZST",
+      "name": "",
+      "host": "176.172.131.151",
+      "httpPort": 8081,
+      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=176.172.131.151&httpPort=8081",
+      "region": "FR",
+      "description": "Serveur DZSR",
+      "tags": [
+        "DZSR"
+      ]
+    },
+    {
+      "id": "dzst01",
+      "name": "",
       "host": "38.242.195.205",
       "httpPort": 8081,
-      "description": "Trafic IA, ouvert à tous.",
-      "tags": ["Trafic"],
-      "password": "",
-      "leaderboard": "main-laps"
+      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8081",
+      "region": "EU",
+      "description": "Shutoko Revival Project, heavy traffic (serveur DZST by ALGSTREET)",
+      "tags": [
+        "Traffic",
+        "SRP"
+      ]
+    },
+    {
+      "id": "main",
+      "name": "DZST 3 110 |Heavy Traffic |vip |by ALGSTREET ",
+      "host": "38.242.195.205",
+      "httpPort": 8082,
+      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8082",
+      "region": "FR",
+      "description": "Serveur DZSR",
+      "tags": [
+        "DZSR"
+      ]
     }
   ],
   "news": [

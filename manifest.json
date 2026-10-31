@@ -10,10 +10,10 @@
     }
   ],
   "launcher": {
-    "version": "1.0.1",
-    "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.1/ServerLauncher.exe",
-    "sha256": "b29135ba1ac5a9e366f44496f688cd275b6e905043ee242aa781f27ae2cfbea8",
-    "notes": "Ajout du serveur DZST 01 Shutoko, corrections."
+    "version": "1.0.2",
+    "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.2/ServerLauncher.exe",
+    "sha256": "69daeb56a8260329b9e1bed3da1b8687a62cd24241e9f0d5267692e9bb198a2f",
+    "notes": "Serveur DZST 01 Shutoko, correction de la connexion aux serveurs AssettoServer (CSP handshake)."
   },
   "csp": {
     "minVersion": "0.3.0",

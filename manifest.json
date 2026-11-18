@@ -10,10 +10,10 @@
     }
   ],
   "launcher": {
-    "version": "1.0.2",
-    "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.2/ServerLauncher.exe",
-    "sha256": "69daeb56a8260329b9e1bed3da1b8687a62cd24241e9f0d5267692e9bb198a2f",
-    "notes": "Serveur DZST 01 Shutoko, correction de la connexion aux serveurs AssettoServer (CSP handshake)."
+    "version": "1.0.3",
+    "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.3/ServerLauncher.exe",
+    "sha256": "d32a87a98d01e8c01e1494b9569168937516a4f59c371a05f6cd098232c848d3",
+    "notes": "Partage de musique en jeu (DZST Music Link), 3 serveurs DZST."
   },
   "csp": {
     "minVersion": "0.3.0",
@@ -26,19 +26,7 @@
   },
   "servers": [
     {
-      "id": "main",
-      "name": "",
-      "host": "176.172.131.151",
-      "httpPort": 8081,
-      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=176.172.131.151&httpPort=8081",
-      "region": "FR",
-      "description": "Serveur DZSR",
-      "tags": [
-        "DZSR"
-      ]
-    },
-    {
-      "id": "dzst01",
+      "id": "dzst-8081",
       "name": "",
       "host": "38.242.195.205",
       "httpPort": 8081,
@@ -46,20 +34,31 @@
       "region": "EU",
       "description": "Shutoko Revival Project, heavy traffic (serveur DZST by ALGSTREET)",
       "tags": [
-        "Traffic",
-        "SRP"
+        "DZST"
       ]
     },
     {
-      "id": "main",
-      "name": "DZST 3 110 |Heavy Traffic |vip |by ALGSTREET ",
+      "id": "dzst-8089",
+      "name": "",
       "host": "38.242.195.205",
-      "httpPort": 8082,
-      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8082",
-      "region": "FR",
-      "description": "Serveur DZSR",
+      "httpPort": 8089,
+      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8089",
+      "region": "EU",
+      "description": "",
       "tags": [
-        "DZSR"
+        "DZST"
+      ]
+    },
+    {
+      "id": "dzst-8077",
+      "name": "",
+      "host": "38.242.195.205",
+      "httpPort": 8077,
+      "cmJoinUrl": "https://acstuff.club/s/q:race/online/join?ip=38.242.195.205&httpPort=8077",
+      "region": "EU",
+      "description": "",
+      "tags": [
+        "DZST"
       ]
     }
   ],

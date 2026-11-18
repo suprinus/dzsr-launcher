@@ -10,10 +10,10 @@
     }
   ],
   "launcher": {
-    "version": "1.0.3",
-    "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.3/ServerLauncher.exe",
-    "sha256": "d32a87a98d01e8c01e1494b9569168937516a4f59c371a05f6cd098232c848d3",
-    "notes": "Partage de musique en jeu (DZST Music Link), 3 serveurs DZST."
+    "version": "1.0.4",
+    "url": "https://github.com/suprinus/dzsr-launcher/releases/download/launcher-v1.0.4/ServerLauncher.exe",
+    "sha256": "3d8b9b05b1509a89bd70b6884d3e4236b985bc0dd4101e1e7d9c7248a5f8c1cd",
+    "notes": "Ma musique : Lecteur multimedia Windows, Spotify, VLC... captes en plus du navigateur."
   },
   "csp": {
     "minVersion": "0.3.0",
